@@ -1,2 +1,2 @@
 # mimv
-man individual market value
+individual market value
