@@ -1,9 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles/styles.css';
-
-ReactDOM.render(
-    <div className='sentence'>
+const App = () => {
+    return (<div className='sentence'>
         <div>
             Welcome to imv
         </div>
@@ -12,8 +9,7 @@ ReactDOM.render(
             <span>Market</span>
             <span>Value</span>
         </div>
-    </div>,
-    document.querySelector(
-        '#main-content'
-    )
-);
+    </div>)
+}
+
+export default App;
